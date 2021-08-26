@@ -1,0 +1,37 @@
+/* Definately going to have to review the NHT OF TYPE selectors */
+body {
+    background-color:#ced4d8;
+}
+h1 {
+    color:#ac6ac7;
+}
+h2 {
+    color:rgb(255,165,0);
+}
+li {
+    color: blue;
+}
+p {
+    background: gold;
+}
+input {
+    border: 5px dotted pink;
+}
+.first{
+    background-color: #fff;
+}
+#important {
+    border: 3px, dashed, blue;
+}
+div p {
+    font-size: 30px;
+}
+input[type=email]{
+    background: #808080;
+}
+p:only-child {
+background: hotpink;
+    }
+    p:nth-of-type(2) {
+        border: 7px solid rgb(255, 255,255);
+    }
